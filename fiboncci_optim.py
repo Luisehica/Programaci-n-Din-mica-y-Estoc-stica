@@ -5,6 +5,7 @@ Created on Sat Jul 11 12:04:54 2020
 @author: luise
 """
 import time
+import sys 
 
 def fibonacci_recursivo(n,):
     if n == 0 or n == 1:
@@ -25,7 +26,8 @@ def fibonacci_dinamico(n, memo = {}):
         
 
 if __name__ == '__main__':
-    n = 40
+    sys.setrecursionlimit(10002)
+    n = 5000
     comienzo = time.time()
     fibo = fibonacci_dinamico(n)
     final = time.time()
