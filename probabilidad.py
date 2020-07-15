@@ -19,12 +19,11 @@ def main(numero_de_tiros, numero_de_intentos):
     for tiro in tiros:
         if 1 not in tiro:
             tiros_con_1 += 1
-
     probabilidad_tiros_con_1 = tiros_con_1 / numero_de_intentos
     print(f'Probabilidad de no obtener por lo menos un 1 en {numero_de_tiros} tiros = {probabilidad_tiros_con_1}')
 
 if __name__ == '__main__':
-    numero_de_tiros = 20
-    numero_de_intentos = 4
+    numero_de_tiros = 70
+    numero_de_intentos = 10000
 
 main(numero_de_tiros, numero_de_intentos)
