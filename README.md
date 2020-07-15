@@ -1,2 +1,2 @@
-# Programaci-n-Din-mica-y-Estoc-stica
+# Programación-Dinámica-y-Estocástica
 Curso en Platzi
